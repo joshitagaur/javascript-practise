@@ -16,11 +16,11 @@ for(i; i<=25; i++)
     }
 }
 //->fizz
- buzz
- fizz buzz
- fizz
- fizzbuzz
- fizz
- buzz
- fizz
- buzz
+//->buzz
+//->fizz buzz
+//->fizz
+//->fizzbuzz
+//->fizz
+//->buzz
+//->fizz
+//->buzz
