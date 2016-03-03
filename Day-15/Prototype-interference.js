@@ -29,3 +29,23 @@ for(var i in map)
 }
 //->"home"
 "Office"
+
+//In order to avoid this problem we can use hasOwnProperty method
+Object.prototype.checkobject = "check for interference";
+for(var i in map)
+{
+  console.log(i);
+}
+
+for(var i in map)
+{
+  if(map.hasOwnProperty(i))
+  {
+    console.log(i);
+  }
+}
+//->"home"
+"Office"
+"checkobject"
+"home"
+"Office"
