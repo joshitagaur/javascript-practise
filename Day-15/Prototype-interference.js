@@ -49,3 +49,16 @@ for(var i in map)
 "checkobject"
 "home"
 "Office"
+
+//To avoid all the problems we can use
+var map = Object.create(null);
+map["pizza"] = 3;
+map["sandwich"] = 2;
+for(var i in map)
+{
+  console.log(i);
+}
+console.log("toString" in map);
+//->"pizza"
+"sandwich"
+false
