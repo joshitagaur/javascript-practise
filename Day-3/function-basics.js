@@ -15,16 +15,14 @@ var f1 = function()
    var x ='inside'
 }
 f1();
-console.log(x)
+console.log(x)//->outside
+
 var f2 = function()
 {
    x = 'inside'
 }
 f2();
-console.log(x)
-
-//->outside
-//->inside
+console.log(x)//->inside
  
 
 //Function to create a pattern

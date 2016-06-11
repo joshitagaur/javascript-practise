@@ -10,7 +10,7 @@ var power = function(base,exponent)
     }
        return result
 }
-console.log(power(3))
+console.log(power(3)) //Math.pow(base, exp)
 console.log(power(3,4))
 //->9
 //->81
@@ -23,11 +23,11 @@ var power = function(base,exponent)
          var result = 1;
          for(var count = 0; count < exponent ; count++)
             {
-                result *= base
-             }
+                result *= base;
+            }
          }
       else
-          result = base
+          result = base;
       return result
 }
 console.log(power(3))
