@@ -1,7 +1,7 @@
 //An example of closure in javascript
 function completeName(firstName,lastName)
 {
-   var intro = "Your name is"
+   var intro = "Your name is "
    function showName()
    {
       return intro+firstName+" "+lastName
@@ -10,5 +10,5 @@ function completeName(firstName,lastName)
 }
 console.log(completeName("Joshita","Gaur"))
 
-//->Your name isJoshita Gaur
+//->Your name is Joshita Gaur
 
